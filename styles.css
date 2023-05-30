@@ -1,0 +1,52 @@
+body {
+  background: lightblue;
+}
+
+header {
+  background-color: white;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+main {
+  margin: 15px;
+  text-align: justify;
+}
+
+section {
+  margin: 10px;
+  text-align: justify;
+}
+
+section h2 {
+  font-size: (1.5rem + 3vw);
+}
+
+section p {
+  font-size: 1rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: clamp(10px, 5vw, 20px);
+}
+
+@media (max-width: 600px) {
+  header {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
